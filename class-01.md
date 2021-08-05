@@ -6,7 +6,7 @@
 
 *Components are the building blocks of any React app, a component is a software object, intended to interact with other components, encapsulating certain functionality or a set of functionalities.*
 
-![cba](https://www.techdiagonal.com/wp-content/uploads/2019/08/React-components-blog-image.jpg) 
+![com](https://www.techdiagonal.com/wp-content/uploads/2019/08/React-components-blog-image.jpg) 
 
 ## What are the charactistics of a component?
 
@@ -25,7 +25,7 @@
 
 # What is “Props” and how to use it in React?
 
-![cba](https://miro.medium.com/max/1400/1*27LtOtFyJe7MguQkNcZQjQ.png) 
+![prop](https://miro.medium.com/max/1400/1*27LtOtFyJe7MguQkNcZQjQ.png) 
 
 ## What is props short for?
 
@@ -36,26 +36,10 @@
 
 - Defining attribute and data, with interpolation {}.
 
-```HTML
-<ChildComponent text= { “Im the 1st child” } />
-```
-
 - Passing data using Props, like we pass 
 arguments to a function.
 
-```JS
-const ChildComponent = (props) => {  
-  return <p>I'm the 1st child!</p>; 
-};
-```
-
 - Rendering Props data.
-
-```JS
-const ChildComponent = (props) => {  
-  return <p>{props.text}</p>; 
-};
-```
 
 ## What is the flow of props?
 
