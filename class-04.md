@@ -33,7 +33,7 @@ Using a conditional, like an if statement, allows us to specify that a certain b
   }
 ```
 
-***_Selution:_***
+***Selution:***
 
 ```JS
 x===y ? console.log(true) : console.log(false)
