@@ -10,7 +10,7 @@
 
 ### How many ‘calls’ can happen at once?
 
-- Infinitely, Not really until we don't overflow the stack with function calls. Since each time a function is called all the variables used need space to be store in stack and stack is of limited size.
+- It is single-threaded. Meaning it can only do one thing at a time.
 
 <hr>
 
